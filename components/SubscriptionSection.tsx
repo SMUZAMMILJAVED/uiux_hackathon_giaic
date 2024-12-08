@@ -14,7 +14,7 @@ const SubscriptionSection = () => {
         {/* Paragraph */}
         <p className="text-lg sm:text-xl text-[#555] mb-8 text-center max-w-2xl mx-auto">
           Subscribe to our newsletter and stay updated with the latest offers and
-          products. Don't miss out on exclusive deals and discounts!
+          products. Don&apos;t miss out on exclusive deals and discounts!
         </p>
 
         {/* Subscription Form */}

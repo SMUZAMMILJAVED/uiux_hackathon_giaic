@@ -1,7 +1,6 @@
 "use client";  // Add this at the very top
 
 import { useState } from "react";
-import localFont from "next/font/local";
 import "./globals.css";
 import Navebar from "@/components/Navebar";
 import Footer from "@/components/Footer";
