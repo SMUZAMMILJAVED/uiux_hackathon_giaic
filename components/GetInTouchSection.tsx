@@ -33,7 +33,7 @@ const GetInTouchSection = () => {
         {/* Right Side (Image) */}
         <div className="flex-1 h-full w-full mt-8 lg:mt-0">
           <Image
-            src="/image.png" // Image from public folder
+            src="/image.png" 
             alt="Get in touch"
             layout="responsive" // Ensures image is responsive and fills container
             width={1000}
