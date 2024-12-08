@@ -15,9 +15,9 @@ const Navbar = () => {
         <FiSearch className="hidden sm:block w-8 h-8 text-[#22202E] cursor-pointer" />
 
         {/* Center: Company Name */}
-        <h1 className="text-2xl font-bold text-[#22202E] sm:text-center">
+        <Link href={"/"} className="text-2xl font-bold text-[#22202E] sm:text-center">
           Avion
-        </h1>
+        </Link>
 
         {/* Right Side: Icons */}
         <div className="flex items-center space-x-6">
@@ -50,31 +50,32 @@ const Navbar = () => {
         } sm:flex justify-center bg-white`}
       >
         <ul className="flex flex-col sm:flex-row sm:space-x-8 py-3 text-lg font-medium text-[#22202E]">
-          <li className="text-center">
-            <Link href="/plants" className="hover:underline">
-              Plants
+        <li className="text-center">
+            <Link href="/" className="hover:underline">
+              Home
             </Link>
           </li>
           <li className="text-center">
-            <Link href="/camera" className="hover:underline">
-              Camera
+            <Link href="/allproducts" className="hover:underline">
+              All Products
             </Link>
           </li>
           <li className="text-center">
-            <Link href="/tables" className="hover:underline">
-              Tables
+            <Link href="/about" className="hover:underline">
+              About
             </Link>
           </li>
           <li className="text-center">
-            <Link href="/chairs" className="hover:underline">
-              Chairs
+            <Link href="/product" className="hover:underline">
+              Product
             </Link>
           </li>
           <li className="text-center">
-            <Link href="/crockery" className="hover:underline">
-              Crockery
+            <Link href="/cart" className="hover:underline">
+              Cart
             </Link>
           </li>
+          
         </ul>
       </div>
     </nav>
