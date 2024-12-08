@@ -22,7 +22,7 @@ const Navbar = () => {
         {/* Right Side: Icons */}
         <div className="flex items-center space-x-6">
           {/* Search Icon for Mobile */}
-          <FiSearch className="block sm:hidden w-8 h-8 text-[#22202E] cursor-pointer" />
+         <FiSearch className="block sm:hidden w-8 h-8 text-[#22202E] cursor-pointer" />
           {/* Menu Toggle */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -35,7 +35,7 @@ const Navbar = () => {
             )}
           </button>
           {/* Cart and User Icons (Desktop Only) */}
-          <FiShoppingCart className="hidden sm:block w-8 h-8 text-[#22202E] cursor-pointer" />
+          <Link href={"/cart"}>       <FiShoppingCart className="hidden sm:block w-8 h-8 text-[#22202E] cursor-pointer" /> </Link>
           <FiUser className="hidden sm:block w-8 h-8 text-[#22202E] cursor-pointer" />
         </div>
       </div>
