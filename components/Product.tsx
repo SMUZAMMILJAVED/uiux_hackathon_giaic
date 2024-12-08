@@ -2,26 +2,26 @@ import React from "react";
 
 const Product = () => {
   return (
-    <div className="bg-gray-50 flex items-center justify-center w-full min-h-screen ">
-      <div className="bg-white   flex flex-col lg:flex-row w-full ">
+    <div className="bg-white flex items-center justify-center w-full min-h-screen">
+      <div className="bg-white flex flex-col lg:flex-row w-full h-auto lg:h-[550px]">
         {/* Left Section: Image */}
-        <div className="w-full lg:w-1/2 h-full">
+        <div className="w-full lg:w-1/2 h-auto">
           <img
             src="/product.jpeg" // Replace with the actual path to your image
             alt="The Dandy Chair"
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-auto lg:h-[530px]" // Adjust height for responsiveness
           />
         </div>
 
         {/* Right Section: Product Details */}
-        <div className="w-full lg:w-1/2 flex flex-col justify-between p-6 lg:p-14">
+        <div className="w-full lg:w-1/2 flex flex-col justify-between p-4 lg:p-6">
           {/* Product Info */}
           <div className="flex flex-col justify-between h-full">
             <div>
               <h1 className="text-3xl font-semibold text-gray-800">The Dandy Chair</h1>
               <p className="text-xl text-gray-600 mt-4">£250</p>
 
-              <p className="text-gray-700 mt-6">
+              <p className="text-gray-700 mt-2">
                 A timeless design, with premium materials features as one of our most
                 popular and iconic pieces. The Dandy chair is perfect for any
                 stylish living space with beech legs and lambskin leather
