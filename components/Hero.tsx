@@ -1,7 +1,5 @@
 "use client";
-
-import Image from "next/image";
-import chairImage from "/public/chair.jpeg"; // Replace with your actual chair image path
+ // Replace with your actual chair image path
 
 const Hero = () => {
   return (

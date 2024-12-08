@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Product = () => {
@@ -6,10 +7,12 @@ const Product = () => {
       <div className="bg-white flex flex-col lg:flex-row w-full h-auto lg:h-[550px]">
         {/* Left Section: Image */}
         <div className="w-full lg:w-1/2 h-auto">
-          <img
+        <Image
             src="/product.jpeg" // Replace with the actual path to your image
             alt="The Dandy Chair"
-            className="object-cover w-full h-auto lg:h-[530px]" // Adjust height for responsiveness
+            width={600} // Set a width (adjust based on your needs)
+            height={530} // Set a height (adjust based on your needs)
+            className="object-cover w-full h-auto lg:h-[530px]" // Keep your responsiveness styles
           />
         </div>
 

@@ -4,7 +4,6 @@ import CeramicProducts from "@/components/CeramicProducts";
 import PopularProducts from "@/components/PopularProducts";
 import SubscriptionSection from "@/components/SubscriptionSection";
 import GetInTouchSection from "@/components/GetInTouchSection";
-import Footer from "@/components/Footer";
 
 
 export default function Home() {
